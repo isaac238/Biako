@@ -1,0 +1,54 @@
+@import "../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+$main-color: #525252;
+html {
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: #222;
+  color: #ccc;
+  font-family: 'Karla', sans-serif;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.skewed-bg {
+  background: $main-color;
+  margin: 0 auto;
+  @include transform(skew(0deg, -10deg));
+  width: 100%;
+  .content {
+    @include transform(skew(0deg, 10deg));
+    text-align: center;
+
+    .title {
+      font-weight: normal;
+      font-family: 'Karla', sans-serif;
+    }
+
+    .text {
+      color: #cccccc;
+      font-family: 'Karla', sans-serif;
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .credits {
+    text-align:center;
+    color: #ccc;
+
+    .link {
+      color: #ccc;
+    }
+  }
+}

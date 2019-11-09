@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+/* line 5, ../sass/index.scss */
+html {
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 10, ../sass/index.scss */
+body {
+  background: #222;
+  color: #ccc;
+  font-family: 'Karla', sans-serif;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/index.scss */
+.skewed-bg {
+  background: #525252;
+  margin: 0 auto;
+  -moz-transform: skew(0deg, -10deg);
+  -ms-transform: skew(0deg, -10deg);
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  width: 100%;
+}
+/* line 24, ../sass/index.scss */
+.skewed-bg .content {
+  -moz-transform: skew(0deg, 10deg);
+  -ms-transform: skew(0deg, 10deg);
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  text-align: center;
+}
+/* line 28, ../sass/index.scss */
+.skewed-bg .content .title {
+  font-weight: normal;
+  font-family: 'Karla', sans-serif;
+}
+/* line 33, ../sass/index.scss */
+.skewed-bg .content .text {
+  color: #cccccc;
+  font-family: 'Karla', sans-serif;
+}
+
+/* line 40, ../sass/index.scss */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+/* line 46, ../sass/index.scss */
+.footer .credits {
+  text-align: center;
+  color: #ccc;
+}
+/* line 50, ../sass/index.scss */
+.footer .credits .link {
+  color: #ccc;
+}

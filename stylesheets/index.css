@@ -3,6 +3,7 @@
 html {
   margin: 0 auto;
   height: 100%;
+  overflow: hidden;
 }
 
 /* line 10, ../sass/index.scss */
@@ -12,6 +13,7 @@ body {
   font-family: 'Karla', sans-serif;
   margin: 0 auto;
   height: 100%;
+  overflow: hidden;
 }
 
 /* line 19, ../sass/index.scss */
